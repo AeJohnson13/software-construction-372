@@ -1,4 +1,6 @@
-<html> 
+<!DocTYPE html> 
+
+<html lang="en-us"> 
 	<head> 
 		<title> 
 			Login
@@ -7,13 +9,30 @@
 
 	<body onkeyup = "checkUserName()" >
 		<header>
-			<h1> The Totally Legal Piracy Company </h1>
-			<img src = "./hagfsih.png" alt = "Alt text" style="width:100px;height:100px;" >
+			<h1> 
+				A Generic Streaming Service 
+			</h1>
+			<img src = "./hagfsih.png" alt = "Company Logo" style="width:100px;height:100px;" >
 		</header> 
 
 		<nav>
-			<h2> quick links </h2> 
-			<p> <a href="Home.html"> Home </a>  	 <a href="Login.html"> Login </a> 	<a href="Gallery.html"> Gallery </a> </p> 
+			<h2>
+				 quick links
+			</h2>
+ 
+			<p> 	
+				<a href="Home.html">
+					Home
+				</a>  	
+					
+				<a href="Login.html">
+					Login
+				</a> 	
+					
+				<a href="Gallery.html">
+					Gallery
+				</a> 
+			</p> 
 
 		</nav> 
 
@@ -22,10 +41,7 @@
 				Login
 			</h3> 
 			Username <input type = "text", id = "UserNameInput"> </input>
-			<br> 
-			<p id = "error text"> 
-      </p> 
-      <br> 
+			<p id = "error text" style="color:#FF0000"></p>
       Password <input type = "password", id = "UserPasswordInput"> </input> 
 			<button type = "button"> Submit </button> 
 

@@ -1,5 +1,7 @@
-function characterCheck(){
-let text = "123456"
-let mybool = text.test(/[a-z]|[A-Z]/g) 
-console.log(mybool)
+function characterCheck(inputString){
+  const re = /[a-zA-Z]+/
+  let invalidCharCheck = re.exec(inputString);
+  if (invalidCharCHeck == inputString) { 
+  // not broken?
+  } 
 } 

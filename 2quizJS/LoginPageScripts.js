@@ -1,3 +1,15 @@
+/* 
+LoginPageScripts.js 
+Alex Johnson
+1/24/25
+For CSF372 Quiz 2
+contains functions used in Login.html
+*/ 
+
+
+// checkUserName() 
+// 	checks to see if a valid username has been typed,
+// 	displays an error message if invalid characters are present
 
 function checkUserName()
 { 

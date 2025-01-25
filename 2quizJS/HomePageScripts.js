@@ -1,7 +1,19 @@
-let index = 1 
+/* 
+HomePageScripts.js 
+Alex Johnson
+1/24/25
+For CSF372 Quiz 2
+contains functions used in Home.html
+*/ 
 
+
+// index keeps track of position within slideshow
+let index = 1; 
+
+// rotate() 
+// 	changes src with ID "slide_show", 
+//	rotating through an array of images
 function rotate() {
-	console.log("test")
 	const images = [
 		"4_images/DJI_0127.jpg",
 		"4_images/DJI_0154.jpg",
@@ -15,9 +27,9 @@ function rotate() {
 
 }
 
-
+// rotater() 
+// 	calls function rotate() on a 4 second interval 
 function rotater() { 
-	console.log("starting rotation")
 	var timer = window.setInterval(rotate, 4000);
 } 
 
